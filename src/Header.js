@@ -8,10 +8,10 @@ const headerStyle = {
     color: '#fff',
     textTransform: 'uppercase'
 };
-const Header = function () {
+const Header = function (props) {
     return (
         <div className="header">
-            Phone Directory
+            {props.headingName}
         </div>
     )
 };
